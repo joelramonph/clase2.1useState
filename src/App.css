@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: brown;
+  overflow: hidden;
+}
+
+h1{
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+label{
+  color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+}
+
+input{
+  padding: 10px;
+  margin: 10px;
+}
+
+button{
+  font-size: 16px;
+  padding: 10px;
+  color: azure;
+  background-color: blue;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
